@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "weatherproj"
+version = "0.1.0"
+description = "My amazing weather ptroject"
+authors = ["me"]
+license = "1MilDollars"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
